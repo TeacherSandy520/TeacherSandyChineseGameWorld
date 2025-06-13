@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Sandy老師的遊戲世界</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h2>請輸入你的名字：</h2>
+        <input type="text" id="playerName" placeholder="例如：小明" />
+        <button onclick="startGame()">開始遊戲</button>
+        <div id="countdown" class="hidden">倒數：<span id="timer">5</span></div>
+        <div id="question" class="hidden">請找出：<span id="targetWord"></span></div>
+        <div id="gameArea" class="hidden"></div>
+        <div id="result" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
